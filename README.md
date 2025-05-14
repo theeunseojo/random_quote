@@ -17,7 +17,7 @@ flask 복습하려고 만들었음
 
 ## 🗂 프로젝트 구조
 
-flask_tutorial/<br>
+random_quote/<br>
 ├── app.py # Flask 애플리케이션 메인 <br>
 ├── schema.sql # SQLite 초기 테이블 생성 <br>
 ├── templates/<br>
