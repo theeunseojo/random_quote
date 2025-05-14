@@ -20,9 +20,9 @@ flask 복습하려고 만들었음
 flask_tutorial/<br>
 ├── app.py # Flask 애플리케이션 메인 <br>
 ├── schema.sql # SQLite 초기 테이블 생성 <br>
-├── templates/  <br>
-│ ├── index.html # 명언 입력 폼   <br>
-│ └── quotes.html # 명언 목록 출력   <br>
+├── templates/<br>
+│ ├── index.html # 명언 입력 폼 <br>
+│ └── quotes.html # 명언 목록 출력 <br>
 
 ## ⚙️ 실행 방법
 
