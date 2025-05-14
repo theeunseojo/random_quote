@@ -17,17 +17,17 @@ flask 복습하려고 만들었음
 
 ## 🗂 프로젝트 구조
 
-flask_tutorial/ \\
-├── app.py # Flask 애플리케이션 메인 \\
-├── schema.sql # SQLite 초기 테이블 생성 \\
-├── templates/ \\
-│ ├── index.html # 명언 입력 폼 \\
-│ └── quotes.html # 명언 목록 출력 \\
+flask_tutorial/<br>
+├── app.py # Flask 애플리케이션 메인 <br>
+├── schema.sql # SQLite 초기 테이블 생성 <br>
+├── templates/  <br>
+│ ├── index.html # 명언 입력 폼   <br>
+│ └── quotes.html # 명언 목록 출력   <br>
 
 ## ⚙️ 실행 방법
 
 1. 저장소 클론 및 폴더 이동
-   git clone https://github.com/yourusername/random_quote.git
+   git clone https://github.com/theeunseojo/random_quote.git
    cd flask_tutorial
    
 3. 가상환경 생성 및 Flask 설치
