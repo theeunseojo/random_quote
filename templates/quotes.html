@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>명언 목록</title>
+</head>
+<body>
+  <h1>📝 명언 목록</h1>
+  <ul>
+    {% for q in quotes %}
+      <li>{{ q.text }}</li>
+    {% endfor %}
+  </ul>
+  <p><a href="{{ url_for('index') }}">← 입력 페이지로</a></p>
+</body>
+</html>

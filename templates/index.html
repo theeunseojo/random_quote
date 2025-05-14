@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>명언 입력</title>
+</head>
+<body>
+  <h1>🌟 명언 입력</h1>
+  <form action="{{ url_for('add_quote') }}" method="POST">
+    <input type="text" name="quote" placeholder="명언을 입력하세요" required>
+    <button type="submit">추가</button>
+  </form>
+  <p><a href="{{ url_for('show_quotes') }}">전체 명언 보기</a></p>
+</body>
+</html>
